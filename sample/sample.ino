@@ -2,7 +2,7 @@
 // Specifications: Spec-00000057.pdf
 
 // Include the header
-#include "S58LM20A.h"                           // Using S58LM20A library
+#include "S58LM20A.h"                           // Using S-58LM20A library
 #include <Arduino_FreeRTOS.h>                   // Using FreeRTOS multi-tasking in Arduino
 
 // Immediate defines

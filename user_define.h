@@ -12,7 +12,7 @@
 #include "oss_ec_00000057.h"
 
 #define iADC_bit                10U                             // MPU ADC bit
-#define iADC_vdd                2.7F                            // MPU Vdd Configures the reference voltage [V]
+#define iADC_vdd                3.3F                            // MPU Vdd Configures the reference voltage [V]
 #define iVref                   DEFAULT                         // Configures the reference voltage
                                                                 // DEFAULT: the default analog reference of 5 volts (on 5V Arduino boards) 
                                                                 //          or 3.3 volts (on 3.3V Arduino boards)
@@ -25,8 +25,8 @@
 //#define iMA                     iWMA                            // Weighted moving average filter
 
 //#define iS58LM20A_SMA_num       4U                              // Simple moving average number & buf size
-//#define iS58LM20A_EMA_K         0.25F                           // Exponential Smoothing Factor
-//#define iS58LM20A_WMA_num       4U                              // Weighted moving average number & buf size
+//#define iS58LM20A_EMA_K         0.75F                           // Exponential Smoothing Factor
+//#define iS58LM20A_WMA_num       3U                              // Weighted moving average number & buf size
 
 #define iS58LM20A_ma            iMA                             // Moving average select
 

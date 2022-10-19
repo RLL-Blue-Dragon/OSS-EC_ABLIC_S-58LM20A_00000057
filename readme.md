@@ -5,7 +5,7 @@ We also provide OSS for many other components from the [OSS-EC site](https://oss
 
 # [Datasheet](https://www.ablic.com/en/doc/datasheet/temperature_sensor/S58LM20A_E.pdf)
 
-# [component software specifications](https://oss-ec.com/wp-content/uploads/2022/09/Spec-S-58LM20A.pdf)
+# [component software specifications](https://oss-ec.com/wp-content/uploads/2022/10/Spec-S-58LM20A.pdf)
 
 # BSL-00000057 Features
 - Component type         ADC component
